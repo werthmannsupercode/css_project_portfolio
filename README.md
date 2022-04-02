@@ -2,7 +2,7 @@
 
 🌸 Willkommen zu diesem kleinen Projekt! 🌸
 
-So oder so ähnlich könnte mein eigenes zukünftiges Portfolio aussehen, mit dem ich meine professionelle Arbeit für euch alle vorstelle.
+So oder so ähnlich könnte mein eigenes zukünftiges Portfolio aussehen, mit dem ich meine professionelle Arbeit für euch vorstelle.
 
 Für all diejenigen, die besonders neugierig sind, findet ihr hier:
 
