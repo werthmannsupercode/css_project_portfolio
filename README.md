@@ -14,8 +14,8 @@ Besonders stolz bin ich auf meinen ❤️ Heartbeat ❤️ den ich noch ein biss
 
 Die Seite ist optimiert für eine Bildschirmgröße von 1440x900 Pixel. 
 
-Verwendete Technologien:
--HTML
+Verwendete Technologien:<br>
+-HTML<br>
 -CSS
 
 🍀 Viel Freude mit der Seite 🍀
