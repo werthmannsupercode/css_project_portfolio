@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans&display=swap');
+
+/*font-family: 'Didact Gothic', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+
+/*================================================================
+GENERAL STYLES
+================================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/*================================================================
+HEADER STYLES
+================================================================*/
+
+header {
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+}
+
+header p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 30vw 40px 30vw;
+}
+
+header div img {
+    width: 50vw;
+    height: auto;
+}
+
+header h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 10vh 0;
+}
+
+/*================================================================
+MAIN STYLES
+================================================================*/
+
+main section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 20vh 5vw 10vh 12.5vw;
+}
+
+main section:first-of-type {
+    background-image: url('../img/portfolio2.jpg');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+main section:nth-of-type(2) {
+    background-image: url('../img/portfolio3.png');
+}
+
+main section:nth-of-type(3) {
+    background-image: url('../img/portfolio4.jpg');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+main section:nth-of-type(4) {
+    background-image: url('../img/portfolio5.png');
+}
+
+main section:nth-of-type(odd) p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #9E9E9E;
+}
+
+main section:nth-of-type(odd) h3 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 11rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+main section:nth-of-type(odd) div {
+    padding-top: 60px;
+}
+
+main section:nth-of-type(odd) div a {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #FFFFFF;
+}
+
+main section:nth-of-type(odd) div a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+main section:nth-of-type(odd) div h4 {
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14rem;
+    color: #9E9E9E;
+    opacity: 0.2;
+}
+
+main section:nth-of-type(odd) div a:hover+h4 {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+main section:nth-of-type(even) p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #9E9E9E;
+}
+
+main section:nth-of-type(even) h3 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 11rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 20px 0;
+}
+
+main section:nth-of-type(even) div {
+    padding-top: 60px;
+}
+
+main section:nth-of-type(even) div a {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+}
+
+main section:nth-of-type(even) div a:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+main section:nth-of-type(even) div a:hover+h4 {
+    color: #000000;
+    opacity: 1;
+}
+
+main section:nth-of-type(even) div h4 {
+    text-align: right;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14rem;
+    color: #9E9E9E;
+}
+
+main section:nth-of-type(even) div a:hover+h4 {
+    color: #000000;
+    opacity: 1;
+}
+
+/*================================================================
+FOOTER STYLES
+================================================================*/
+
+footer section:first-of-type {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #000000;
+    padding: 20vh 0 10vh 0;
+}
+
+footer section:first-of-type h5 {
+    font-size: 16rem;
+    font-weight: lighter;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: -10px;
+}
+
+footer section:first-of-type article {
+    padding-left: 42.5vw;
+}
+
+footer section:first-of-type article p {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #9E9E9E;
+    line-height: 2;
+    word-spacing: 3px;
+    padding: 15vh 5vw 0 0;
+}
+
+footer section:first-of-type article div {
+    padding: 10vh 0;
+}
+
+footer section:first-of-type article div a {
+    font-size: 5.4rem;
+    font-weight: lighter;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer section:first-of-type article div a:hover {
+    text-decoration: underline;
+}
+
+footer section:last-of-type {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15rem;
+    text-align: center;
+    padding: 5vh;
+}
+
+footer section:last-of-type div {
+    padding-top: 15vh;
+}
+
+
+footer section:last-of-type div a {
+    font-size: 15rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+footer section:last-of-type div a:hover {
+    text-decoration: underline;
+}
+
+footer section:last-of-type p:after {
+    content: '\2764';
+    font-size: 2rem;
+    animation-name: heartbeat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes heartbeat {
+    from {
+        font-size: 2rem;
+    }
+
+    to {
+        font-size: 4rem;
+    }
+}
